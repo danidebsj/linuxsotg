@@ -5,3 +5,6 @@ para que se muestre al inicio del sistema
 Las letras de issue las he generado con: 
 
 http://patorjk.com/software/taag/#p=display&h=2&f=ANSI%20Shadow&t=KPRNX
+
+
+tutorial de Youtube: https://www.youtube.com/watch?v=35cDhcCC-L4

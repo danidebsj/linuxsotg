@@ -1,0 +1,16 @@
+#!/bin/sh -e
+
+# Instalar en /etc/network/if-up.d/addip2issue
+
+if [ "$METHOD" = loopback ]; then
+            exit 0
+    fi
+
+    # Only run from ifup.
+    if [ "$MODE" != start ]; then
+                exit 0
+    fi
+    
+cat /etc/issue-original > /etc/issue
+/usr/local/bin/get-ip-address >> /etc/issue
+echo "" >> /etc/issue

@@ -1,3 +1,3 @@
-git clone https://github.com/kopernix/spaghetti-scripts.git
+git clone https://github.com/danidebsj/linuxsotg.git
 cd  spaghetti-scripts/issue_brander/
 sh install.sh
